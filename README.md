@@ -4,7 +4,7 @@ A retro-futuristic theme for [Obsidian](https://obsidian.md), inspired by 1970s 
 
 Supports both **Dark** and **Light** modes out of the box with zero plugins and zero configuration required.
 
-![Cassette Futurism Preview](screenshots/preview.png)
+![Cassette Futurism Preview](screenshot.png)
 
 ## Modes
 
