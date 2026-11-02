@@ -27,7 +27,9 @@ Supports both **Dark** and **Light** modes out of the box with zero plugins and 
 
 ## Installation
 
-### Obsidian Community Themes (Recommended once listed)
+### Obsidian Community Themes
+
+Available in the [Obsidian Community directory](https://community.obsidian.md/themes/cassette-futurism). Use **Add to Obsidian** on that page, or install from within the app:
 
 1. Open **Settings** → **Appearance**.
 2. Under **Themes**, click **Browse**.
