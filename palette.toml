@@ -1,0 +1,86 @@
+# Cassette Futurism — Unified Color Palette
+# Design principles:
+#   - "Analog Dream" paradigm: CRT monitors, NASA consoles, vintage tech
+#   - Dark mode: "Magnetic Night" — deep steel-gray base + amber/phosphor neons
+#   - Light mode: "Beige Terminal" — vintage beige base + retro rainbow accents
+#   - WCAG AAA contrast targeted
+
+[meta]
+name = "Cassette Futurism"
+author = "taotao7"
+
+# ─── Dark Mode ("Magnetic Night") ──────────────────────────────────
+[dark]
+
+[dark.base]
+bg       = "#1a1d21"   # deepest background
+bg_dim   = "#171a1e"   # inactive splits / dim
+bg1      = "#1f2327"   # surface: sidebars, panels
+bg2      = "#25292e"   # float: editor, popups
+bg3      = "#2d3238"   # visual selection, active tab
+bg4      = "#3a3f45"   # search highlight, cursorline
+border   = "#3a3f45"   # window/split borders
+
+[dark.text]
+fg       = "#d4d4d4"   # primary text
+fg_dim   = "#8a8f96"   # secondary text, inactive labels
+comment  = "#6272a4"   # comments (italic)
+
+[dark.accent]
+red      = "#ff5555"   # signal red — errors, deletions
+orange   = "#ffb86c"   # amber — keywords, functions (monochrome monitor glow)
+yellow   = "#f1fa8c"   # pale yellow — types, warnings
+green    = "#50fa7b"   # phosphor green — strings, additions (classic CRT)
+cyan     = "#8be9fd"   # soft cyan — constants, parameters (signal indicators)
+blue     = "#8be9fd"   # soft cyan — functions (reused as blue role)
+purple   = "#bd93f9"   # soft purple — classes, types
+pink     = "#ff79c6"   # pink-purple — operators, HTML tags, regex
+
+[dark.diagnostic]
+error    = "#ff5555"
+warn     = "#ffb86c"
+info     = "#8be9fd"
+hint     = "#50fa7b"
+
+[dark.git]
+add      = "#50fa7b"
+change   = "#ffb86c"
+delete   = "#ff5555"
+
+# ─── Light Mode ("Beige Terminal") ─────────────────────────────────
+[light]
+
+[light.base]
+bg       = "#f5f0e8"   # vintage beige (deepest)
+bg_dim   = "#f8f5ee"   # inactive splits
+bg1      = "#ede8e0"   # surface: sidebars
+bg2      = "#faf8f4"   # float: editor
+bg3      = "#e8e0d6"   # active tab
+bg4      = "#d4c8b8"   # visual selection, cursorline
+border   = "#c4b8a8"   # borders
+
+[light.text]
+fg       = "#2d2a27"   # primary text (dark gray-brown)
+fg_dim   = "#6b6560"   # secondary text
+comment  = "#928374"   # comments (italic)
+
+[light.accent]
+red      = "#9d0006"   # deep crimson — errors
+orange   = "#d65d0e"   # retro orange — keywords, functions
+yellow   = "#b57614"   # dark gold — types, warnings
+green    = "#79740e"   # mustard — strings, additions
+cyan     = "#458588"   # teal — constants, parameters
+blue     = "#076678"   # deep teal — functions
+purple   = "#b16286"   # deep pink-purple — classes
+pink     = "#cc241d"   # deep red — operators, HTML tags
+
+[light.diagnostic]
+error    = "#9d0006"
+warn     = "#d65d0e"
+info     = "#076678"
+hint     = "#458588"
+
+[light.git]
+add      = "#458588"
+change   = "#d65d0e"
+delete   = "#9d0006"
